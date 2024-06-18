@@ -1,0 +1,31 @@
+.elem {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    animation: moveToRight 4s ease-in-out;
+    animation-delay: 2s;
+  }
+
+  @keyframes moveToRight {
+    0% {
+       transform: translateX(0px);
+     }
+     25% {
+        transform: translateX(300px);
+        background: red;
+    
+  }
+
+    50% {
+       transform: translateY(300px) translateX(300px);
+        background-color: green;
+
+        
+  }
+     
+      75% {
+        transform: translateY(300px) translateX(0px);
+        background: yellow;
+        
+      }
+    }
